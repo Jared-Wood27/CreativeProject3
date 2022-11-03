@@ -19,9 +19,6 @@ const Layout = () => {
           <li class="nav-item">
             <Link class="nav-link" to="Italian food">Italian Food</Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="Food Search">Food Search</Link>
-          </li>
         </ul>
       </div>
     </nav>

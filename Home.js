@@ -10,9 +10,7 @@ const Home = () => {
       </div>
     <div class="col-6">
     <div class="photo">
-        <img src="./images/HomeImage.jfif" class="img-fluid"/>
-        <img src="/images/HomeImage.jfif" class="img-fluid"/>
-        <img src="../images/HomeImage.jfif" class="img-fluid"/>
+        <img src={require("./images/HomeImage.jfif")} class="img-fluid"/>
         <div class="special">
         <h2>See amazing foods from all around the world!</h2>
         <h3>Here are some fan favorites!</h3>
@@ -28,7 +26,7 @@ const Home = () => {
     <div class="dishes row">
         <div class="dish col-md col-lg">
             <h1>Chimichanga</h1>
-            <img src="images/chimi.jfif" class="img-fluid"/>
+            <img src={require("./images/chimi.jfif")} class="img-fluid"/>
         </div>
         <div class="dish col-md col-lg">
             <h1>Ingrediants</h1>
@@ -67,7 +65,7 @@ const Home = () => {
     <div class="dishes row">
       <div class="dish col-md col-lg">
           <h1>Chili</h1>
-            <img src="images/chili.jfif" class="img-fluid"/>
+            <img src={require("./images/chili.jfif")} class="img-fluid"/>
       </div>
       <div class="dish col-md col-lg">
            <h1>Ingrediants</h1>
@@ -103,7 +101,7 @@ const Home = () => {
     <div class="dishes row">
       <div class="dish col-md col-lg">
           <h1>Tres Leches</h1>
-            <img src="images/tresLeches.jfif" class="img-fluid"/>
+            <img src={require("./images/tresLeches.jfif")} class="img-fluid"/>
         </div>
         <div class="dish col-md col-lg">
              <h1>Ingrediants</h1>
@@ -137,8 +135,9 @@ const Home = () => {
     </div>
       
      <footer class="bg-light text-center text-lg-start">
-  
-  <a class="text-dark" href="https://github.com/Jared-Wood27/CreativeProject2.git">CreativeProject2-Jared-Wood27</a>
+      <div class="text-center p-3">           
+  <a class="text-dark" href="https://github.com/Jared-Wood27/CreativeProject3.git">CreativeProject3-Jared-Wood27</a>
+    </div>
 </footer>
       
       
